@@ -195,6 +195,12 @@ body{
 	color: #000000;
 	text-decoration: none;
 }
+.readmore1:hover{
+    color:#0027D5;
+}
+.readmore:hover{
+    color:#0027D5;
+}
 h1{
     font-size: 28px;
     font-weight: bolder;
@@ -233,9 +239,11 @@ h1{
 	width: 30%;
 	height: 476px;
 	margin: 16px;
+    padding-bottom: 50px;
 }
 .blogcontent img{
 	width: 99%;
+    aspect-ratio: 1/0.6;
 }
 .blogtext{
 	margin: 4px;
@@ -386,6 +394,7 @@ h1{
     .allcontent{
         max-width: 767px;
         flex-wrap: wrap;
+        margin-bottom: 30px;
     }
     .blog{
         width: 100%;
@@ -399,6 +408,7 @@ h1{
         flex-direction: column;
         align-items: center;
         margin: 0 auto;
+        padding-bottom: 130px;
     }
     .info{
         display: none;
